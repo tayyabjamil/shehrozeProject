@@ -1,0 +1,53 @@
+<!-- <form [formGroup]="loginForm">
+  
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName">
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+
+    <h3>Address</h3>
+  
+    <label>
+      Street:
+      <input type="text" formControlName="street">
+    </label>
+  
+    <label>
+      City:
+      <input type="text" formControlName="city">
+    </label>
+    
+    <label>
+      State:
+      <input type="text" formControlName="state">
+    </label>
+  
+    <label>
+      Zip Code:
+      <input type="number" formControlName="zip">
+    </label>
+ 
+  <button ngif (click)="onSubmit()">Submit</button>
+
+</form> -->
+
+<!-- forms basic 0,/////////////////////////// ///////////////////////////////////-->
+
+
+<!-- <div>
+<label>Name</label><br>
+<input [(ngModel)]='name' style="width: 50%;" class="form-control" type="text" name="name">
+
+  <h1>{{name}}</h1>
+</div>
+data bindings ///////////////////////////////////////////////////////////////////// -->
+
+
+<h1>first name</h1>
+<ns-textField type="number" class="textfieldBorderColor  font13" [formgroup]="loginForm" formControlName="firstName">
+</ns-textField>

@@ -1,0 +1,6 @@
+<div [formGroup]="formgroup" >
+  <input [formControlName]="formControlName" [type]="type" [ngClass]="{ errorBorder :invalidControl}" >
+  <h3  *ngIf="errorRequired" class="errorlbl">incomplete input</h3>
+  <h3  *ngIf="errorFormate" class="errorlbl">format is incorrect</h3>
+  <h3  *ngIf="errorminLength || errormaxLength"  class="errorlbl">length is incorrect</h3>
+</div>
